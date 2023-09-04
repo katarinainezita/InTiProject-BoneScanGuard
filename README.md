@@ -26,7 +26,7 @@ To get started with the project, follow these steps:
    ```
    python app.py
    ```
-5. Open the "templates" folder and open the "index.html" file.
+5. Open the [templates](/templates) folder and open the [index.html](/templates/index.html) file.
 6. Navigate to the "Service" page.
 7. Upload an image from our dataset.
 8. Click the "See Result" button.
