@@ -13,11 +13,12 @@
               src="https://code.jquery.com/jquery-3.3.1.min.js"
               integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
               crossorigin="anonymous"></script>
-    <script type="text/javascript" src="../static/index.js"></script>
+        <script type="text/javascript" src="../static/index.js"></script>
+        <script type="text/javascript" src="../static/script.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+        <link rel="stylesheet" type="text/css" href="../static/style.css">
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 *{
@@ -110,8 +111,9 @@ html{
 /* Home Section Styling */
 .home{
     display: flex;
-    background: url(image/background4.jpg) no-repeat center;
+    background: url(../static/image/background4.jpg) no-repeat center;
     height: 100vh;
+    width: 100%
     color: #fff;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
@@ -762,7 +764,6 @@ footer span a:hover{
                     <li><a href="#home">Home</a></li>
                     <li><a href="#background">Background</a></li>
                     <li><a href="#services">Services</a></li>
-                    <!-- <li><a href="#performance">Performance</a></li> -->
                     <li><a href="#aboutus">About Us</a></li>
                 </ul>
                 <div class="menu-btn">
@@ -790,7 +791,7 @@ footer span a:hover{
             <h2 class="title">Background</h2>
             <div class="background-content">
                 <div class="column left">
-                    <img src="image/download (3).jpg" alt="">
+                    <img src="../static/image/download (3).jpg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">Bone Damage Detection and Counting System</div>
@@ -832,62 +833,8 @@ footer span a:hover{
                 <button name="send" id = "sendbutton" class="styled-button">See Result</button>
             </div>
         </div>
-    </section>
-
-    <!-- Performace Section -->
-    <!-- <section class="performance" id="performance">
-        <div class="max-width">
-            <h2 class="title">Performance</h2>
-            <div class="performance-content">
-                <div class="column left">
-                    <div className="pre_img" >
-                        <img id="imagebox" style="width: 400px; height: 400px; border: 3px solid crimson;">
-                        <img id="imagebox" src="">
-                    </div>
-                    <!-- <div class="text">My Creative</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, repudiandae illum. Ut quibusdam reprehenderit libero. Inventore deleniti at excepturi ullam illum nihil autem. Magnam illo ipsa officia, quidem deleniti assumenda.</p>
-                    <a href="#">Read more</a> -->
-                <!-- </div>
-                <div class="column right">
-                    <div class="bars">
-                        <div class="info">
-                            <span>HTML</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line html"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>CSS</span>
-                            <span>60%</span>
-                        </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>Wordpress</span>
-                            <span>80%</span>
-                        </div>
-                        <div class="line wordpress"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>PHP</span>
-                            <span>50%</span>
-                        </div>
-                        <div class="line php"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>MySQL</span>
-                            <span>70%</span>
-                        </div>
-                        <div class="line mysql"></div>
-                    </div>
-                </div>
-            </div>
         </div>
-    </section> -->
+    </section>
 
     <!-- Contact Me Section -->
     <section class="aboutus" id="aboutus">
@@ -956,7 +903,7 @@ footer span a:hover{
 
     <!-- Footer Section -->
     <footer>
-        <span>Created By <a href="#">InTi Project</a> | <span class="far fa-copyright"> 2023 All rights reserved</span>
+        <span>Created By <a href="#">InTi Project</a></span> | <span class="far fa-copyright"> 2023 All rights reserved</span>
     </footer>
 
     <script src="script.js"></script>
